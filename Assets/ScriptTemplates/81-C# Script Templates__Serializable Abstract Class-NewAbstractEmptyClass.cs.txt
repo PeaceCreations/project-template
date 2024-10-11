@@ -1,0 +1,12 @@
+//
+// Created with joy
+//
+#NOTRIM#
+#NOTRIM#
+    #ROOTNAMESPACEBEGIN#
+[System.Serializable]
+public abstract class #SCRIPTNAME#
+{
+#NOTRIM#
+}
+    #ROOTNAMESPACEEND#

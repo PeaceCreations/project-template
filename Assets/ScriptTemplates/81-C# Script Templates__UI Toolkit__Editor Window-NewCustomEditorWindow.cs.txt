@@ -1,0 +1,55 @@
+//
+// Created with joy
+//
+#NOTRIM#
+using UnityEditor;
+using UnityEditor.UIElements;
+using UnityEngine.UIElements;
+#NOTRIM#
+    #ROOTNAMESPACEBEGIN#
+
+public class #SCRIPTNAME# : UnityEditor.EditorWindow
+{
+
+#NOTRIM#
+
+    VisualTreeAsset visualTreeAsset;
+    VisualElement root;
+#NOTRIM#
+    // open an existing window (or create one, if none is existing)
+    [MenuItem("Window/#SCRIPTNAME#")]
+    private static void ShowWindow()
+    {
+        var window = GetWindow<#SCRIPTNAME#>();
+        window.titleContent = new GUIContent("#SCRIPTNAME#");
+        window.Show();
+    }
+#NOTRIM#
+    // or create a new window each time, the menu item is clicked
+    [MenuItem("Window/#SCRIPTNAME#")]
+    private static void CreateWindow()
+    {
+        var window = CreateWindow<#SCRIPTNAME#>();
+        window.titleContent = new GUIContent("#SCRIPTNAME#");
+        window.Show();
+    }
+#NOTRIM#
+    public void CreateGUI()
+    {
+        InstantiateUXML();
+        FetchElements();
+    }
+    #NOTRIM#
+    private void InstantiateUXML()
+    {
+        root = rootVisualElement;
+        visualTreeAsset = AssetDatabase.LoadAssetAtPath<VisualTreeAsset>("");
+        visualTreeAsset.CloneTree(root);
+    }
+    #NOTRIM'
+    private void FetchElements()
+    {
+        #NOTRIM#
+    }
+}
+    #ROOTNAMESPACEEND#

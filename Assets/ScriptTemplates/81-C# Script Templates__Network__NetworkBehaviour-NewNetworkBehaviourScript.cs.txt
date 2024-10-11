@@ -1,0 +1,42 @@
+//
+// Created with heart
+//
+#NOTRIM#
+using UnityEngine;
+using Unity.Netcode;
+#NOTRIM#
+    #ROOTNAMESPACEBEGIN#
+[AddComponentMenu("#SCRIPTNAME#")]
+public class #SCRIPTNAME# : NetworkBehaviour
+{
+    // ///// Shown in Inspector ////////////////
+#NOTRIM#
+#region Network Variables
+#NOTRIM#
+#NOTRIM#
+#NOTRIM#
+#endregion
+#NOTRIM#
+#NOTRIM#
+#NOTRIM#
+    // ///// Fields and Properties /////////////
+#NOTRIM#
+#NOTRIM#
+#NOTRIM#
+    // /////////////////////////////////////////
+    // ////// Unity Monobehaviour Calls ////////
+#NOTRIM#
+#NOTRIM#
+#NOTRIM#
+    // /////////////////////////////////////////
+    // ////// NetworkBehaviour Calls ///////////
+#NOTRIM#
+#NOTRIM#
+#NOTRIM#
+    // /////////////////////////////////////////
+    // ////// Methods //////////////////////////
+#NOTRIM#
+#NOTRIM#
+#NOTRIM#
+}
+    #ROOTNAMESPACEEND#

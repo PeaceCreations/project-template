@@ -1,0 +1,28 @@
+//
+// Created with joy
+//
+#NOTRIM#
+using UnityEditor;
+using UnityEditor.UIElements;
+using UnityEngine.UIElements;
+#NOTRIM#
+    #ROOTNAMESPACEBEGIN#
+[CustomEditor(typeof())]
+public class #SCRIPTNAME# : UnityEditor.Editor
+{
+
+#NOTRIM#
+
+    VisualTreeAsset visualTreeAsset;
+    VisualElement root;
+
+#NOTRIM#
+    public override VisualElement CreateInspectorGUI()
+    {
+        root = new VisualElement();
+        visualTreeAsset = AssetDatabase.LoadAssetAtPath<VisualTreeAsset>("");
+        visualTreeAsset.CloneTree(root);
+        return root;
+    }
+}
+    #ROOTNAMESPACEEND#

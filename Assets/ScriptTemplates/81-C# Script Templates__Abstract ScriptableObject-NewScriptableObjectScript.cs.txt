@@ -1,0 +1,13 @@
+//
+// Created with heart
+//
+#NOTRIM#
+using UnityEngine;
+#NOTRIM#
+    #ROOTNAMESPACEBEGIN#
+
+public abstract class #SCRIPTNAME# : ScriptableObject
+{
+#NOTRIM#
+}
+    #ROOTNAMESPACEEND#

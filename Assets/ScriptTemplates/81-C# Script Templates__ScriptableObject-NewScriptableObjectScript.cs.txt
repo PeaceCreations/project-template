@@ -1,0 +1,13 @@
+//
+// Created with heart
+//
+#NOTRIM#
+using UnityEngine;
+#NOTRIM#
+    #ROOTNAMESPACEBEGIN#
+[CreateAssetMenu(fileName = "New#SCRIPTNAME#", menuName = "#SCRIPTNAME#")]
+public class #SCRIPTNAME# : ScriptableObject
+{
+#NOTRIM#
+}
+    #ROOTNAMESPACEEND#

@@ -1,0 +1,12 @@
+//
+// Created with joy
+//
+#NOTRIM#
+#NOTRIM#
+    #ROOTNAMESPACEBEGIN#
+
+public class #SCRIPTNAME#
+{
+#NOTRIM#
+}
+    #ROOTNAMESPACEEND#

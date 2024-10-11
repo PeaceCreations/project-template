@@ -1,0 +1,11 @@
+//
+// Created with heart
+//
+#NOTRIM#
+#NOTRIM#
+    #ROOTNAMESPACEBEGIN#
+public interface #SCRIPTNAME#
+{
+#NOTRIM#
+}
+    #ROOTNAMESPACEEND#

@@ -1,0 +1,25 @@
+//
+// Created with joy
+//
+#NOTRIM#
+
+using UnityEditor;
+using UnityEngine.UIElements;
+#NOTRIM#
+    #ROOTNAMESPACEBEGIN#
+[CustomPropertyDrawer(typeof())]
+public class #SCRIPTNAME# : PropertyDrawer
+{
+#NOTRIM#
+VisualTreeAsset visualTreeAsset;
+VisualElement root;
+#NOTRIM#
+public override VisualElement CreatePropertyGUI(SerializedProperty property)
+{
+    root = new VisualElement();
+    visualTreeAsset = AssetDatabase.LoadAssetAtPath<VisualTreeAsset>("");
+    visualTreeAsset.CloneTree(root);
+    return root;
+}
+}
+    #ROOTNAMESPACEEND#

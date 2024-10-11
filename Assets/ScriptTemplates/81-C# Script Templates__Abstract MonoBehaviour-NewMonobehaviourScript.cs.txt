@@ -1,0 +1,30 @@
+//
+// Created with heart
+//
+#NOTRIM#
+using UnityEngine;
+#NOTRIM#
+    #ROOTNAMESPACEBEGIN#
+
+public abstract class #SCRIPTNAME# : MonoBehaviour
+{
+// ///// Shown in Inspector ////////////////
+#NOTRIM#
+#NOTRIM#
+#NOTRIM#
+    // ///// Fields and Properties /////////////
+#NOTRIM#
+#NOTRIM#
+#NOTRIM#
+    // /////////////////////////////////////////
+    // ////// Unity Monobehaviour Calls ////////
+#NOTRIM#
+#NOTRIM#
+#NOTRIM#
+    // /////////////////////////////////////////
+    // ////// Methods //////////////////////////
+#NOTRIM#
+#NOTRIM#
+#NOTRIM#
+}
+    #ROOTNAMESPACEEND#

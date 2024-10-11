@@ -1,0 +1,12 @@
+//
+// Created with heart
+//
+#NOTRIM#
+#NOTRIM#
+    #ROOTNAMESPACEBEGIN#
+[System.Serializable]
+public struct #SCRIPTNAME#
+{
+#NOTRIM#
+}
+    #ROOTNAMESPACEEND#

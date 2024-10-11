@@ -1,0 +1,12 @@
+//
+// Created with heart
+//
+#NOTRIM#
+#NOTRIM#
+    #ROOTNAMESPACEBEGIN#
+[System.Serializable]
+public enum #SCRIPTNAME#
+{
+#NOTRIM#
+}
+    #ROOTNAMESPACEEND#
